@@ -75,17 +75,30 @@ ul.lineal li{
   margin-top:25px;
   padding:0 5px;
 }
+  #body h1, 
+  #body h2, 
+  #body h3 {
+    font-family: 'Adamina', sans-serif;
+	color: #827972;
+}
+
   #body h1{
     font-family: 'Adamina', sans-serif;
-    font-size: 25px;
 	color: #434343;
+    font-size: 25px;
 	margin-bottom: 5px;
 }
 
-  #body h3{
-    font-family: 'Adamina', sans-serif;
+  #body h2{
+	color: #434343;
     font-size: 18px;
-	color: #827972;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
+
+  #body h3{
+    font-size: 18px;
 	margin-bottom: 5px;
 }
 
