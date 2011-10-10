@@ -1,255 +1,174 @@
+/* @override http://localhost:4000/assets/default.css */
 
-/*
-    Design by Free CSS Templates
-    http://www.freecsstemplates.org
-    Released for free under a Creative Commons Attribution 2.5 License
-*/
-
-/* Basic */
-
-*
-{
-    margin: 0em;
-    padding: 0em;
+a{
+    color: #ba5153;
+	text-decoration: none;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
 }
 
-h1,h2
-{
+a:hover {
+  color: #813637;
+  text-decoration: none;
 }
 
-a
-{
-    color: #C8001E;
+.wrapper{
+    width:840px;
+    margin:0 auto;
+    overflow: auto;
 }
 
-body
-{
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-size: 11pt;
-    background: #fff;
-    color: #665555;
+.header{
+  width:100%;
+  background-color: #91162a;
+  background-image: linear-gradient(bottom, #751020 20%,  #8f1327 80%);
+  background-image: -o-linear-gradient(bottom, #751020 20%,  #8f1327 80%);
+  background-image: -moz-linear-gradient(bottom, #751020 20%,  #8f1327 80%);
+  background-image: -webkit-linear-gradient(bottom, #751020 20%,  #8f1327 80%);
+  background-image: -ms-linear-gradient(bottom, #751020 20%,  #8f1327 80%);
+  padding:4px 0;
 }
-
-/* Outer */
-
-#outer
-{
-    margin: 0em auto 1em auto;
-    width: 100%;
-    background-color: #fff;
-}
-
-/* Header */
-
-#header
-{
-    padding: 1.5em 2em 1.5em 4em;
-    background: #C8001E;
-}
-
-#header h1
-{
-    font-size: 2.0em;
-}
-
-#header h1, #header h2
-{
+  .header a{
+    color:white;
+	margin: 20px 0px 0px 0px;
+    font-size: 50px;
     display: block;
-    width: 778px;
-    margin: 0em auto;
+	text-decoration: none;
+	border-bottom-style: none;
+}
+    .header a:hover {
+	text-decoration: none;
 }
 
-#header h1 a
-{
-    color: #fff;
-    text-decoration: none;
+  .header h1, .header h2{
+    color:white;
+    font-family: 'Andada', sans-serif;
+    margin:0;
+    padding:0;
+  }
+  .header h2{
+    font-size: 1.42em;
+	color: #d9dbd2;
+	margin-bottom: 10px;
+	font-weight: normal;
+	margin-top: 4px;
+}
+#menu {
+  width:100%;
+  background-color: #d9dbd2;
+  color:white;
+  font-size:1.2em;
+  padding:10px 0;
 }
 
-#header h2
-{
-    color: #eee;
-    font-size: 0.8em;
+  #menu a{
+  	color: #6f6f6f;
+    font-family: 'Adamina', sans-serif;
+	text-transform: lowercase;
+	font-size: 0.95em;
+	text-decoration: none;
 }
 
-/* Menu */
-
-#menu
-{
-    padding: 1em 2em 1em 0em;
-    background: #F1DFC9 url('/assets/a2.gif') top left repeat-x;
-    font-size: 0.9em;
+  #menu a:hover {
+	color: #1d1d1d;
 }
 
-#menu ul
-{
-    display: block;
-    width: 778px;
-    margin: 0em auto;
-    list-style: none;
-    padding-left: 2.5em;
+#body{
+  margin-top:25px;
+  padding:0 5px;
+}
+  #body h1, 
+  #body h2, 
+  #body h3 {
+    font-family: 'Adamina', sans-serif;
+	color: #827972;
 }
 
-#menu li
-{
-    display: inline;
+  #body h1{
+    font-family: 'Adamina', sans-serif;
+	color: #434343;
+    font-size: 25px;
+	margin-bottom: 5px;
 }
 
-#menu li a
-{
-    color: #C8001E;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 0.25em 0.75em 0.25em 0.75em;
+  #body h2{
+    font-size: 18px;
+	color: #b74641;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	border-bottom: 1px dashed #e1e1e1;
+	font-weight: normal;
+	font-style: normal;
 }
 
-#menu li a:hover
-{
-    text-decoration: underline;
+
+  #body h3{
+	color: #9f3b37;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border-bottom: 1px solid #e1e1e1;
+    font-size: 18px;
+	margin-bottom: 5px;
+	font-weight: normal;
+	font-style: normal;
 }
 
-/* Content */
-
-#content
-{
-    width: 778px;
-    margin: 0em auto;
+#body div.wrapper ul li a {
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
 }
 
-#content p
-{
-    margin-bottom: 1.5em;
-    text-align: justify;
+ul.lineal{
+  margin:0;
+  overflow: hidden;
+}
+ul.lineal li{
+  display:inline-block;
+  margin:0 5px;
+  padding:0;
 }
 
-#content h1,h2,h3,h4,h5,h6
-{
-    color: #443333;
-    margin-bottom: 1em;
+.extra{
+  float:right;
 }
 
-#content ul, #content ol
-{
-    margin-bottom: 1.5em;
-    padding-left: 1em;
+#body div.extra h3{
+    background: #d9dbd2;
+    padding:6px 8px;
+    border-radius:5px;
+	font: normal normal 15px 'Adamina', sans-serif;
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: #6b6b67;
 }
 
-#content ol li {
-    margin-bottom: 1em;
+#body div.wrapper p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	line-height: 1.6em;
+	font-size: 16px;
+	margin-bottom: 1.4em;
+	color: #5f5f5f;
 }
 
-#content blockquote
-{
-    padding-left: 1em;
-    margin-bottom: 1.5em;
-    border-left: solid 7px #EFEECC;
+#body div.wrapper ul li {
+	margin-top: 15px;
+	font-family: Georgia, "Times New Roman", Times, serif;	
 }
 
-#content blockquote p
-{
-    margin-bottom: 0em;
+
+
+div#footer.row {
+	font-family: Georgia, "Times New Roman", Times, serif;	
+	margin-top: 20px;
+	background-color: #d9dbd2;
+	padding: 10px 10px;
+	text-align: center;
 }
 
-#content table
-{
-    margin-bottom: 1.5em;
-}
-
-#content table th
-{
-    text-align: left;
-    font-weight: bold;
-    padding: 0.5em;
-    color: #443333;
-}
-
-#content table td
-{
-    padding: 0.5em;
-}
-
-#content table tr.rowA
-{
-    background-color: #F6EECC;
-    color: inherit;
-}
-
-#content table tr.rowB
-{
-    background-color: #FFFEEF;
-    color: inherit;
-}
-
-/* Primary Content */
-
-#primaryContentContainer
-{
-    float: left;
-    margin-left: -17em;
-    width: 100%;
-}
-
-#primaryContent
-{
-    margin: 0em 0em 0em 16.5em;
-    padding: 1.5em;
-}
-
-#primaryContent h2, #primaryContent h3
-{
-    border-bottom: solid 1px #efeecc;
-    padding-bottom: 0.25em;
-    margin-bottom: 1.25em;
-}
-
-#primaryContent h2
-{
-    font-size: 1.7em;
-}
-
-#primaryContent h3
-{
-    font-size: 1.1em;
-}
-
-/* Secondary Content */
-
-#secondaryContent
-{
-    float: right;
-    width: 14em;
-    padding: 1.5em 2em 1.5em 2em;
-    font-size: 0.9em;
-}
-
-#secondaryContent h3
-{
-    background: #C8001E;
-    color: #fff;
-    padding: 0.33em 0.2em 0.33em 1.0em;
-    position: relative;
-    left: -0.8em;
-    margin-right: -1.6em;
-    font-size: 1.0em;
-}
-
-#secondaryContent ul li {
-    margin-bottom: 0.33em;
-}
-
-/* Footer */
-
-#footer
-{
-    padding: 1.5em 2em 1.5em 2em;
-    text-align: center;
-    width: 778px;
-    margin: 0em auto;
-    border-top: solid 1px #efeecc;
-    font-size: 0.9em;
-    color: #999;
-}
-
-.clear
-{
-    clear: both;
+div#footer p {
+	font-size: 14px;
+	color: #6b6b6b;
+	margin: 0px;
+	overflow: hidden;
 }
