@@ -1,6 +1,13 @@
+/* @override http://localhost:4000/assets/default.css */
+
 a{
   color:#b2001a;
 }
+a:hover {
+color: #8c0b11;
+	
+}
+
 ul.lineal{
   margin:0;
 }
@@ -10,12 +17,14 @@ ul.lineal li{
   padding:0;
 }
 .wrapper{
-    width:980px;
+    width:840px;
     margin:0 auto;
+    overflow: auto;
 }
+
 .header{
   width:100%;
-  background-color:#751020;
+  background-color: #91162a;
   background-image: linear-gradient(bottom, #751020 20%,  #8f1327 80%);
   background-image: -o-linear-gradient(bottom, #751020 20%,  #8f1327 80%);
   background-image: -moz-linear-gradient(bottom, #751020 20%,  #8f1327 80%);
@@ -25,7 +34,14 @@ ul.lineal li{
 }
   .header a{
     color:white;
+	margin: 20px 0px 0px 0px;
+    font-size: 50px;
+    display: block;
   }
+    .header a:hover {
+	text-decoration: none;
+}
+
   .header h1, .header h2{
     color:white;
     font-family: 'Andada', sans-serif;
@@ -33,33 +49,84 @@ ul.lineal li{
     padding:0;
   }
   .header h2{
-      font-size:1.2em;
-  }
-#menu{
+    font-size: 1.42em;
+	font-style: normal;
+	color: #d9dbd2;
+	letter-spacing: 0;
+	word-spacing: -1px;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+#menu {
   width:100%;
-  background-color:#6b0e1d;
+  background-color: #d9dbd2;
   color:white;
   font-size:1.2em;
-  padding:6px 0;
-  padding-bottom:10px;
+  padding:10px 0;
 }
+
   #menu a{
-      color:white;
-  }
+  	color: #6f6f6f;
+    font-family: 'Adamina', sans-serif;
+	text-transform: lowercase;
+	font-size: 0.95em;
+}
 #body{
-  margin-top:15px;
+  margin-top:25px;
   padding:0 5px;
 }
   #body h1{
     font-family: 'Adamina', sans-serif;
-  }
+    font-size: 25px;
+	color: #434343;
+	margin-bottom: 5px;
+}
+
+  #body h3{
+    font-family: 'Adamina', sans-serif;
+    font-size: 18px;
+	color: #827972;
+	margin-bottom: 5px;
+}
+
+
 .extra{
   float:right;
 }
   .extra h3{
-    font-family:'Adamina', sans-serif;
-    background:#6b0e1d;
-    padding:0 6px;
-    color:white;
+    background: #d9dbd2;
+    padding:6px;
+    color: #424242;
     border-radius:5px;
-  }
+	font: normal normal 15px 'Adamina', sans-serif;
+	margin-bottom: 10px;
+}
+
+#body div.wrapper p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	line-height: 1.6em;
+	font-size: 16px;
+	margin-bottom: 1.4em;
+	color: #5f5f5f;
+}
+
+#body div.wrapper ul li {
+	margin-top: 15px;
+	font-family: Georgia, "Times New Roman", Times, serif;	
+}
+
+
+
+div#footer.row {
+	font-family: Georgia, "Times New Roman", Times, serif;	
+	margin-top: 20px;
+	background-color: #d9dbd2;
+	padding: 26px 10px;
+	text-align: center;
+}
+
+div#footer p {
+	font-size: 20px;
+	color: #6b6b6b;
+	margin: 0px;
+}
