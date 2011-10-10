@@ -1,31 +1,17 @@
 /* @override http://localhost:4000/assets/default.css */
 
 a{
-  color: #b88f7d;
+    color: #ba5153;
 	text-decoration: none;
 	border-bottom-style: dotted;
 	border-bottom-width: 1px;
 }
 
-#body div.wrapper ul li a {
-	font-weight: normal;
-	font-style: normal;
-	text-decoration: none;
-}
 a:hover {
-  color: #7d6154;
-	
+  color: #813637;
+  text-decoration: none;
 }
 
-ul.lineal{
-  margin:0;
-  overflow: hidden;
-}
-ul.lineal li{
-  display:inline-block;
-  margin:0 5px;
-  padding:0;
-}
 .wrapper{
     width:840px;
     margin:0 auto;
@@ -129,6 +115,21 @@ ul.lineal li{
 	font-style: normal;
 }
 
+#body div.wrapper ul li a {
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+
+ul.lineal{
+  margin:0;
+  overflow: hidden;
+}
+ul.lineal li{
+  display:inline-block;
+  margin:0 5px;
+  padding:0;
+}
 
 .extra{
   float:right;
