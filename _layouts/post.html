@@ -5,48 +5,56 @@
 <title>Ruby Documentation Project</title>
 <meta name="keywords" content="ruby, documentation, MRI, rdoc, mendicant university, documentation patch" />
 <meta name="description" content="Information site for creating documentation patches for Ruby" />
-<link href="/assets/default.css" rel="stylesheet" type="text/css" />
-<link href="/assets/syntax.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.3.0/bootstrap.min.css" />
+<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Andada|Adamina' rel='stylesheet' type='text/css' />
+<link href="../assets/default.css" rel="stylesheet" type="text/css" />
+<link href="../assets/syntax.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<div id="outer">
-  <div id="header">
-    <h1><a href="/">Ruby Documentation Project</a></h1>
-    <h2>A concerted effort to augment and enhance Ruby MRI documentation</h2>
+  <div class="header">
+    <div class="wrapper">
+      <h1><a href="/">Ruby Documentation Project</a></h1>
+      <h2>A concerted effort to augment and enhance Ruby MRI documentation</h2>
+    </div>
   </div>
   <div id="menu">
-    <ul>
-      <li class="first"><a href="/" accesskey="1" title="">Home</a></li>
-      {% for item in site.tags.menu %}
-       <li><a href="{{item.url}}" accesskey="2">{{ item.title }}</a></li>
-      {% endfor %}
-    </ul>
+    <div class="wrapper">
+      <ul class="unstyled lineal">
+        <li class="first"><a href="/" accesskey="1" title="">Home</a></li>
+        {% for item in site.tags.menu %}
+         <li><a href="{{item.url}}" accesskey="2">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
-  <div id="content">
-    <div id="primaryContentContainer">
-      <div id="primaryContent">
+  <div id="body" class="row">
+    <div class="wrapper">
+      <div class="span11">
         <h1>{{ page.title }}</h1>
         {{ content }}
       </div>
+      <div class="span4 extra">
+        <h3>Get Involved</h3>
+        <ul>
+          {% for post in site.tags.help %}
+            <li><a href="{{ post.url}}">{{ post.title }}</a></li>
+          {% endfor %}
+        </ul>
+        <h3>More Resources</h3>
+        <ul>
+          <li>
+            <a href="http://redmine.ruby-lang.org/projects/ruby/wiki/DocumenterHowTo">Style Guide</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div id="secondaryContent">
-      <h3>Get Involved</h3>
-      <ul>
-        {% for post in site.tags.help %}
-        <li><a href="{{ post.url}}">{{ post.title }}</a></li>
-        {% endfor %}
-      </ul>
-      <h3>More Resources</h3>
-      <ul>
-        <li>
-          <a href="http://redmine.ruby-lang.org/projects/ruby/wiki/DocumenterHowTo">Style Guide</a>
-       </li>
-     </ul>
-    </div>
-    <div class="clear"></div>
   </div>
-  <div id="footer">
-    <p>Copyright &copy; 2011 Ruby Documentation Project. Design adapted from <a href="http://www.freecsstemplates.org/preview/civilized/">Civilized</a></p>
+  <div class="row" id="footer">
+    <div class="wrapper">
+      <div class="span16">
+        <p>Copyright &copy; 2011 Ruby Documentation Project. Design adapted from <a href="http://www.freecsstemplates.org/preview/civilized/">Civilized</a></p>
+      </div>
+    </div>
   </div>
 </div>
 </body>
