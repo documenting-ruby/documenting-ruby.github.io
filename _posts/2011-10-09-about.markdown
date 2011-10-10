@@ -1,0 +1,8 @@
+---
+layout: default
+title: "About This Project"
+tags:
+  - menu
+---
+
+Info about how Mendicant Doc Week evolved into an ongoing effort to increase the MRI Documentation coverage.

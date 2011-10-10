@@ -1,0 +1,6 @@
+markdown: rdiscount
+pygments: true
+root: "/"
+author: "Mendicant University alumni"
+auto: true
+permalink: none
