@@ -161,12 +161,12 @@ div#footer.row {
 	font-family: Georgia, "Times New Roman", Times, serif;	
 	margin-top: 20px;
 	background-color: #d9dbd2;
-	padding: 26px 10px;
+	padding: 10px 10px;
 	text-align: center;
 }
 
 div#footer p {
-	font-size: 20px;
+	font-size: 14px;
 	color: #6b6b6b;
 	margin: 0px;
 	overflow: hidden;
