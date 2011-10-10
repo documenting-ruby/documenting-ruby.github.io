@@ -1,10 +1,19 @@
 /* @override http://localhost:4000/assets/default.css */
 
 a{
-  color:#b2001a;
+  color: #b88f7d;
+	text-decoration: none;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+}
+
+#body div.wrapper ul li a {
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
 }
 a:hover {
-color: #8c0b11;
+  color: #7d6154;
 	
 }
 
@@ -38,7 +47,9 @@ ul.lineal li{
 	margin: 20px 0px 0px 0px;
     font-size: 50px;
     display: block;
-  }
+	text-decoration: none;
+	border-bottom-style: none;
+}
     .header a:hover {
 	text-decoration: none;
 }
@@ -71,7 +82,13 @@ ul.lineal li{
     font-family: 'Adamina', sans-serif;
 	text-transform: lowercase;
 	font-size: 0.95em;
+	text-decoration: none;
 }
+
+  #menu a:hover {
+	color: #1d1d1d;
+}
+
 #body{
   margin-top:25px;
   padding:0 5px;
@@ -91,16 +108,25 @@ ul.lineal li{
 }
 
   #body h2{
-	color: #434343;
     font-size: 18px;
-	margin-bottom: 5px;
+	color: #b74641;
+	margin-bottom: 20px;
 	margin-top: 20px;
+	border-bottom: 1px solid #e1e1e1;
+	font-weight: normal;
+	font-style: normal;
 }
 
 
   #body h3{
+	color: #9f3b37;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border-bottom: 1px solid #e1e1e1;
     font-size: 18px;
 	margin-bottom: 5px;
+	font-weight: normal;
+	font-style: normal;
 }
 
 
