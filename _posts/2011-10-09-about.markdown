@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "About This Project"
+title: About
 tags:
   - menu
 ---
