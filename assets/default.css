@@ -48,10 +48,7 @@ a:hover {
   }
   .header h2{
     font-size: 1.42em;
-	font-style: normal;
 	color: #d9dbd2;
-	letter-spacing: 0;
-	word-spacing: -1px;
 	margin-bottom: 10px;
 	font-weight: normal;
 }
@@ -97,8 +94,8 @@ a:hover {
     font-size: 18px;
 	color: #b74641;
 	margin-bottom: 20px;
-	margin-top: 20px;
-	border-bottom: 1px solid #e1e1e1;
+	margin-top: 30px;
+	border-bottom: 1px dashed #e1e1e1;
 	font-weight: normal;
 	font-style: normal;
 }
@@ -134,13 +131,15 @@ ul.lineal li{
 .extra{
   float:right;
 }
-  .extra h3{
+
+#body div.extra h3{
     background: #d9dbd2;
-    padding:6px;
-    color: #424242;
+    padding:6px 8px;
     border-radius:5px;
 	font: normal normal 15px 'Adamina', sans-serif;
 	margin-bottom: 10px;
+	font-size: 14px;
+	color: #6b6b67;
 }
 
 #body div.wrapper p {
