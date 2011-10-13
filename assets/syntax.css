@@ -61,10 +61,14 @@
 
 .highlight pre {
   border:1px solid #DEDEDE;
-  padding:0.8em 0.2em;
+  padding:0.8em;
 }
 
 .highlight pre, .highlight code {
   background-color:#F8F8FF;
   overflow:auto;
+}
+
+.highlight pre code {
+    padding: 0;
 }

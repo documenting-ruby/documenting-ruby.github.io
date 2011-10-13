@@ -25,7 +25,7 @@ Choose some code to document. You can use our [suggestions for code to document]
 
 Get a list of undocumented code (you must have rdoc >= 3.3 for this to work):
 {% highlight bash %}
- rdoc -C1 > documentation_coverage.txt
+rdoc -C1 > documentation_coverage.txt
 {% endhighlight %}
 
 Search for "is not documented" in "documentation_coverage.txt". Find something that interests you, and document it. You can see how much of Ruby is documented by looking at the stats at the bottom of the file.
@@ -42,12 +42,12 @@ Write your new documentation.
 
 Generate your new HTML documentation:
 {% highlight bash %}
- rdoc -o tmpdoc PATH/TO/YOUR/FILES
+rdoc -o tmpdoc PATH/TO/YOUR/FILES
 {% endhighlight %}
 
 This for example will document all `drb` files:
 {% highlight bash %}
- rdoc -o tmpdoc lib/drb*
+rdoc -o tmpdoc lib/drb*
 {% endhighlight %}
 
 Preview your new documentation in `tmpdoc/index.html`.
@@ -66,7 +66,7 @@ Add your documentation change:
 
 Commit your documentation change:
 {% highlight bash %}
- git commit -m "adding documentation for WHAT_YOU_CHANGED"
+git commit -m "adding documentation for WHAT_YOU_CHANGED"
 {% endhighlight %}
 
 Submit a pull request to MU's fork if you want a quality review, or need help creating a patch to submit to Ruby Core. Or if you have something that's ready to go, you can submit the patch yourself (see instructions below). You should **not** submit a pull request to ruby/ruby, they don't use github's mechanism for this.

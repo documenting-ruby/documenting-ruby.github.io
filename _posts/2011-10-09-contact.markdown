@@ -1,8 +1,0 @@
----
-layout: default
-title: Contact
-tags:
-  - menu
----
-
-Who to contact and how.

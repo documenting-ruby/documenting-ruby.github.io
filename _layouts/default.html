@@ -21,6 +21,9 @@
     <div class="wrapper">
       <ul class="unstyled lineal">
         <li class="first"><a href="/" accesskey="1" title="">Home</a></li>
+        <li><a href="http://www.ruby-lang.org/en/community/mailing-lists/" accesskey="2" title="">Mailing List</a></li>
+        <li><a href="irc://irc.freenode.net/ruby-core" accesskey="2" title="">IRC</a></li>
+        <li><a href="https://github.com/rmu/ruby" accesskey="3" title="">Github</a></li>
         {% for item in site.tags.menu %}
          <li><a href="{{item.url}}" accesskey="2">{{ item.title }}</a></li>
         {% endfor %}
@@ -33,24 +36,25 @@
         {{ content }}
       </div>
       <div class="span4 extra">
-        <h3>Get Involved</h3>
+        <h3 class="first">Getting Started</h3>
         <ul>
           {% for post in site.tags.help %}
             <li><a href="{{ post.url}}">{{ post.title }}</a></li>
           {% endfor %}
         </ul>
-        <h3>More Resources</h3>
+        <h3>Other Useful Resources</h3>
         <ul>
           <li>
             <a href="http://redmine.ruby-lang.org/projects/ruby/wiki/DocumenterHowTo">Style Guide</a>
           </li>
+          <li><a href="http://blog.steveklabnik.com/2011/05/10/contributing-to-ruby-s-documentation.html">Article &amp; screencast on the documentation process</a></li>
         </ul>
       </div>
     </div>
   </div>
   <div class="row" id="footer">
     <div class="wrapper">
-        <p>Copyright &copy; 2011 Ruby Documentation Project. Design adapted from <a href="http://www.freecsstemplates.org/preview/civilized/">Civilized</a></p>
+        <p>Copyright &copy; 2011 Ruby Documentation Project.</p>
     </div>
   </div>
 </body>

@@ -1,0 +1,20 @@
+---
+layout: post
+title: Support
+tags:
+  - help
+---
+
+### Mailing List
+
+If you have any questions about documentation for which you can't find the answer on this website, then please post them to the **ruby-doc@ruby-lang.org** mailing list. You can find the sign up form [here](http://www.ruby-lang.org/en/community/mailing-lists/). Note that you need to select "Ruby-Doc" as the mailing list to which you want to subscribe. 
+
+### IRC Channel
+
+We use the #ruby-core IRC channel for discussions around MRI documentation. The channel is not very active, but feel free to ping @drbrain (Eric Hodel), @seacreature (Gregory Brown) or @steveklabnik (Steve Klabnik) with any questions.
+
+
+### Mendicant University's Ruby Fork
+
+The first step for contributing is to create your own fork of Mendicant University's [fork of ruby on github](https://github.com/rmu/ruby). The purpose of this setup is to allow for an internal review process of new documentation contributions. For more details on the exact contribution process, read [How to Document Ruby](/step-by-step-guide.html)
+

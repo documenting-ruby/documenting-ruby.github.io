@@ -2,9 +2,9 @@
 
 a{
     color: #ba5153;
-	text-decoration: none;
-	border-bottom-style: dotted;
-	border-bottom-width: 1px;
+    text-decoration: none;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
 }
 
 a:hover {
@@ -28,95 +28,104 @@ a:hover {
   background-image: -ms-linear-gradient(bottom, #751020 20%,  #8f1327 80%);
   padding:4px 0;
 }
-  .header a{
+.header a{
     color:white;
-	margin: 20px 0px 0px 0px;
-    font-size: 50px;
+    margin: 20px 0px 0px 0px;
+    font-size: 40px;
     display: block;
-	text-decoration: none;
-	border-bottom-style: none;
+    text-decoration: none;
+    border-bottom-style: none;
 }
-    .header a:hover {
-	text-decoration: none;
+.header a:hover {
+    text-decoration: none;
 }
 
-  .header h1, .header h2{
+.header h1, .header h2{
     color:white;
     font-family: 'Andada', sans-serif;
     margin:0;
     padding:0;
-  }
-  .header h2{
-    font-size: 1.42em;
-	color: #d9dbd2;
-	margin-bottom: 10px;
-	font-weight: normal;
-	margin-top: 4px;
+}
+.header h1 {
+    font-size: 2.5em;
+}
+.header h2{
+    font-size: 1.2em;
+    color: #d9dbd2;
+    margin-bottom: 10px;
+    font-weight: normal;
+    margin-top: 4px;
 }
 #menu {
-  width:100%;
-  background-color: #d9dbd2;
-  color:white;
-  font-size:1.2em;
-  padding:10px 0;
+    width:100%;
+    background-color: #d9dbd2;
+    color:white;
+    font-size:1.2em;
+    padding:10px 0;
 }
 
-  #menu a{
-  	color: #6f6f6f;
+#menu a {
+    color: #6f6f6f;
     font-family: 'Adamina', sans-serif;
-	text-transform: lowercase;
-	font-size: 0.95em;
-	text-decoration: none;
+    font-size: 0.95em;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 4px;
+    border-bottom: none;
 }
 
-  #menu a:hover {
-	color: #1d1d1d;
+#menu a:after {
+    content: "/";
+}
+
+#menu a:hover {
+    color: #1d1d1d;
 }
 
 #body{
   margin-top:25px;
   padding:0 5px;
 }
-  #body h1, 
-  #body h2, 
-  #body h3 {
-    font-family: 'Adamina', sans-serif;
-	color: #827972;
+#body h1,
+#body h2,
+#body h3 {
+font-family: 'Adamina', sans-serif;
+color: #827972;
 }
 
-  #body h1{
-    font-family: 'Adamina', sans-serif;
-	color: #434343;
-    font-size: 25px;
-	margin-bottom: 5px;
+#body h1 {
+font-family: 'Adamina', sans-serif;
+color: #434343;
+font-size: 25px;
+margin-bottom: 5px;
 }
 
-  #body h2{
-    font-size: 18px;
-	color: #b74641;
-	margin-bottom: 20px;
-	margin-top: 30px;
-	border-bottom: 1px dashed #e1e1e1;
-	font-weight: normal;
-	font-style: normal;
+#body h2 {
+font-size: 18px;
+color: #b74641;
+margin-bottom: 20px;
+margin-top: 30px;
+border-bottom: 1px dashed #e1e1e1;
+font-weight: normal;
+font-style: normal;
 }
 
 
-  #body h3{
-	color: #9f3b37;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	border-bottom: 1px solid #e1e1e1;
-    font-size: 18px;
-	margin-bottom: 5px;
-	font-weight: normal;
-	font-style: normal;
+#body h3 {
+color: #9f3b37;
+margin-bottom: 20px;
+margin-top: 20px;
+border-bottom: 1px solid #e1e1e1;
+font-size: 18px;
+margin-bottom: 5px;
+font-weight: normal;
+font-style: normal;
 }
 
 #body div.wrapper ul li a {
-	font-weight: normal;
-	font-style: normal;
-	text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
 }
 
 ul.lineal{
@@ -133,42 +142,52 @@ ul.lineal li{
   float:right;
 }
 
-#body div.extra h3{
+#body div.extra h3 {
     background: #d9dbd2;
     padding:6px 8px;
     border-radius:5px;
-	font: normal normal 15px 'Adamina', sans-serif;
-	margin-bottom: 10px;
-	font-size: 14px;
-	color: #6b6b67;
+    font: normal normal 15px 'Adamina', sans-serif;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #6b6b67;
+}
+
+#body div.extra h3.first {
+    margin-top: 0;
+}
+
+#body div.wrapper div.extra ul li {
+    font-size: 14px;
 }
 
 #body div.wrapper p {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	line-height: 1.6em;
-	font-size: 16px;
-	margin-bottom: 1.4em;
-	color: #5f5f5f;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    line-height: 1.6em;
+    font-size: 16px;
+    margin-bottom: 1.4em;
+    color: #5f5f5f;
 }
 
-#body div.wrapper ul li {
-	margin-top: 15px;
-	font-family: Georgia, "Times New Roman", Times, serif;	
+#body div.wrapper ul li, #body div.wrapper ol li {
+    margin-top: 15px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #5F5F5F;
+    font-size: 16px;
 }
 
 
 
 div#footer.row {
-	font-family: Georgia, "Times New Roman", Times, serif;	
-	margin-top: 20px;
-	background-color: #d9dbd2;
-	padding: 10px 10px;
-	text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-top: 20px;
+    background-color: #d9dbd2;
+    padding: 10px 10px;
+    text-align: center;
 }
 
 div#footer p {
-	font-size: 14px;
-	color: #6b6b6b;
-	margin: 0px;
-	overflow: hidden;
+    font-size: 14px;
+    color: #6b6b6b;
+    margin: 0px;
+    overflow: hidden;
 }
