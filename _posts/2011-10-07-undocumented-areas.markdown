@@ -22,28 +22,21 @@ Many modules in Ruby lack a basic top-level description of what they do. In many
   -  Monitor::MonitorMixin
   -  Mutex_m
   -  Profile, Profiler
-  -  Random
-  -  Range
   -  RbConfig
   -  RSS
-  -  Shell
   -  Thread
 
 ### Classes/Modules with poor documentation
 
   - ARGF
-  - Array
   - CMath need clarifications (Complex is now in core, what does it do now?)
   - Digest: no examples (Digest::MD5 is not even in the class list)
   - Enumerable
-  - Etc
   - Float
-  - Hash
   - PTY
   - Racc
   - Rinda
   - Sync, Sync_m
-  - Time
   - ZLib
 
 ### More specialized things
