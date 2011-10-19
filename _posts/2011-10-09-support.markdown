@@ -7,7 +7,7 @@ tags:
 
 ### Mailing List
 
-If you have any questions about documentation for which you can't find the answer on this website, then please post them to the **ruby-doc@ruby-lang.org** mailing list. You can find the sign up form [here](http://www.ruby-lang.org/en/community/mailing-lists/). Note that you need to select "Ruby-Doc" as the mailing list to which you want to subscribe (and make sure to check your spam folder for the confirmation email). 
+If you have any questions about documentation for which you can't find the answer on this website, then please post them to the **documenting.ruby@librelist.org** mailing list. To sign up, send a first message to documenting.ruby@librelist.org with any subject. This step will trigger an email asking you to confirm your subscription request. To finalize your subscription simply reply to the confirmation email you just received.
 
 ### IRC Channel
 
