@@ -14,3 +14,5 @@ In addition it will sport:
 * Links to different resources (tutorials, screencasts, tools) around the topic of submitting documentation patches
 * Miscellaneous tips and tricks, such as rebasing a number of commits into one
 * Walkthroughs with example documentation patches
+
+...
