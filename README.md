@@ -1,7 +1,7 @@
 Ruby Documentation Project
 ===========================
 
-This site contains tips, tricks and other information on how to contribute to MRI documentation.
+This site contains tips, tricks and other useful information on how to contribute to MRI documentation.
 
 It will have:
 
