@@ -17,27 +17,18 @@
       <h2>A concerted effort to augment and enhance Ruby MRI documentation</h2>
     </div>
   </div>
-  <div id="menu">
-    <div class="wrapper">
-      <ul class="unstyled lineal">
-        <li class="first"><a href="/" accesskey="1" title="">Home</a></li>
-        {% for item in site.tags.menu %}
-         <li><a href="{{item.url}}">{{ item.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
   <div id="body" class="row">
     <div class="wrapper">
       <div class="span10">
         {{ content }}
       </div>
       <div class="span4 extra">
-        <h3 class="first">Getting Started</h3>
+        <h3 class="first">Contribute</h3>
         <ul>
-          {% for post in site.tags.help %}
-            <li><a href="{{ post.url}}">{{ post.title }}</a></li>
-          {% endfor %}
+          <li><a href="index.html">Project Overview</a></li>
+          <li><a href="support.html">Community Resources</a></li>
+          <li><a href="step-by-step-guide.html">How to Document Ruby</a></li>
+          <li><a href="undocumented-areas.html">List of Undocumented Areas</a></li>
         </ul>
         <h3>Other Useful Resources</h3>
         <ul>

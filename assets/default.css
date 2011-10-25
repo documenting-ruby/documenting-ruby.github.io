@@ -27,6 +27,7 @@ a:hover {
   background-image: -webkit-linear-gradient(bottom, #751020 20%,  #8f1327 80%);
   background-image: -ms-linear-gradient(bottom, #751020 20%,  #8f1327 80%);
   padding:4px 0;
+  border-bottom: 3px solid #333;
 }
 .header a{
     color:white;
@@ -56,6 +57,7 @@ a:hover {
     font-weight: normal;
     margin-top: 4px;
 }
+
 #menu {
     width:100%;
     background-color: #d9dbd2;
