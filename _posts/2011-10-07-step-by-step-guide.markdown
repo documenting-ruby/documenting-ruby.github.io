@@ -21,7 +21,7 @@ git fetch upstream
 git merge upstream/trunk
 {% endhighlight %}
 
-Choose some code to document. You can use our [suggestions for code to document](http://projects.mendicantuniversity.org/mri-list.html) or follow these instructions to generate your own list of undocumented code. Check MU's [fork of Ruby issues](https://github.com/rmu/ruby/issues) for a list of documentation other people are working on.
+Choose some code to document. You can use our [suggestions for code to document](undocumented-areas.html) or follow these instructions to generate your own list of undocumented code. Check documenting-ruby's [fork of Ruby issues](https://github.com/documenting-ruby/ruby/issues) for a list of documentation other people are working on.
 
 Get a list of undocumented code (you must have rdoc >= 3.3 for this to work):
 {% highlight bash %}
@@ -32,7 +32,7 @@ Search for "is not documented" in "documentation_coverage.txt". Find something t
 
 ## Documenting
 
-To help others know what you're documenting, [open an issue](https://github.com/rmu/ruby/issues/new) on MU's fork of Ruby.
+To help others know what you're documenting, [open an issue](https://github.com/documenting-ruby/ruby/issues/new) on documenting-ruby's fork of Ruby.
 
 Write your new documentation.
 
@@ -69,7 +69,7 @@ Commit your documentation change:
 git commit -m "adding documentation for WHAT_YOU_CHANGED"
 {% endhighlight %}
 
-Submit a pull request to MU's fork if you want a quality review, or need help creating a patch to submit to Ruby Core. Or if you have something that's ready to go, you can submit the patch yourself (see instructions below). You should **not** submit a pull request to ruby/ruby, they don't use github's mechanism for this.
+Submit a pull request to documenting-ruby's fork if you want a quality review, or need help creating a patch to submit to Ruby Core. Or if you have something that's ready to go, you can submit the patch yourself (see instructions below). You should **not** submit a pull request to ruby/ruby, they don't use github's mechanism for this.
 
 ## Instructions for creating your own patch
 

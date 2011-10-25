@@ -74,9 +74,9 @@ a:hover {
     border-bottom: none;
 }
 
-#menu a:after {
+/*#menu a:after {
     content: "/";
-}
+}*/
 
 #menu a:hover {
     color: #1d1d1d;

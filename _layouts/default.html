@@ -21,9 +21,6 @@
     <div class="wrapper">
       <ul class="unstyled lineal">
         <li class="first"><a href="/" accesskey="1" title="">Home</a></li>
-        <li><a href="mailto:documenting.ruby@librelist.org" accesskey="2" title="">Mailing List</a></li>
-        <li><a href="irc://irc.freenode.net/ruby-core" accesskey="3" title="">IRC</a></li>
-        <li><a href="https://github.com/rmu/ruby" accesskey="4" title="">Github</a></li>
         {% for item in site.tags.menu %}
          <li><a href="{{item.url}}">{{ item.title }}</a></li>
         {% endfor %}

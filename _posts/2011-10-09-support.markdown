@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Support
+title: Contribute
 tags:
-  - help
+  - menu
 ---
 
 ### Mailing List
@@ -11,10 +11,10 @@ If you have any questions about documentation for which you can't find the answe
 
 ### IRC Channel
 
-We use the #ruby-core IRC channel for discussions around MRI documentation. The channel is not very active, but feel free to ping @drbrain (Eric Hodel), @seacreature (Gregory Brown) or @steveklabnik (Steve Klabnik) with any questions.
+We use the #ruby-core IRC channel on freenode for discussions around MRI documentation. The channel is not very active, but feel free to ping @drbrain (Eric Hodel), @seacreature (Gregory Brown) or @steveklabnik (Steve Klabnik) with any questions.
 
 
 ### Mendicant University's Ruby Fork
 
-The first step for contributing is to create your own fork of Mendicant University's [fork of ruby on github](https://github.com/rmu/ruby). The purpose of this setup is to allow for an internal review process of new documentation contributions. For more details on the exact contribution process, read [How to Document Ruby](/step-by-step-guide.html)
+The first step for contributing is to create your own fork of documenting-ruby's [fork of ruby on github](https://github.com/documenting-ruby/ruby). The purpose of this setup is to allow for an internal review process of new documentation contributions. For more details on the exact contribution process, read [How to Document Ruby](/step-by-step-guide.html)
 
