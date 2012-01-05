@@ -7,7 +7,7 @@ tags:
 
 ## Getting Set Up
 
-Fork MU's fork of Ruby [on github](https://github.com/rmu/ruby).
+Fork documenting-ruby's fork of Ruby [on github](https://github.com/documenting-ruby/ruby).
 
 Clone your new repo:
 {% highlight bash %}
@@ -16,7 +16,7 @@ git clone git@github.com:YOUR_NAME/ruby.git
 
 Add the upstream remote:
 {% highlight bash %}
-git remote add upstream https://github.com/rmu/ruby.git
+git remote add upstream https://github.com/documenting-ruby/ruby.git
 git fetch upstream
 git merge upstream/trunk
 {% endhighlight %}
