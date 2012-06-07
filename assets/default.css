@@ -41,6 +41,13 @@ a:hover {
     text-decoration: none;
 }
 
+.header a img {
+  border: none;
+  float: left;
+  padding: 0px 10px;
+  height: 65px;
+}
+
 .header h1, .header h2{
     color:white;
     font-family: 'Andada', sans-serif;
