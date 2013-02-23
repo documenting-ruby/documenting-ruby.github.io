@@ -7,9 +7,18 @@ tags:
 
 # How This Project Came Into Being
 
-The Ruby Documentation Project grew out of a burst of documentation activity - 
-[MRI Documentation Week](http://projects.mendicantuniversity.org/doc-week.html) - organized by Mendicant University with the specific intention of enhancing the existing MRI documentation.
+The Ruby Documentation Project grew out of a burst of documentation activity -
+[MRI Documentation Week](http://projects.mendicantuniversity.org/doc-week.html)
+- organized by Mendicant University with the specific intention of enhancing
+the existing MRI documentation.
 
-In the short period of one week, a good deal of quality documentation was produced. Encouraged by the positive response to this event and seeing that there are still many areas of the documentation that need attention, Gregory Brown, Steve Klabnik and members of the [Mendicant University](http://university.rubymendicant.com) have decided to evolve this documentation drive into an ongoing endeavor.
+In the short period of one week, a good deal of quality documentation was
+produced. Encouraged by the positive response to this event and seeing that
+there are still many areas of the documentation that need attention, Gregory
+Brown, Steve Klabnik and members of the [Mendicant
+University](http://university.rubymendicant.com) have decided to evolve this
+documentation drive into an ongoing endeavor.
 
-If you'd like to be a part of this effort, here on this website we've assembled various resources to help you navigate the process of creating and submitting a documentation patch for Ruby.
+If you'd like to be a part of this effort, here on this website we've assembled
+various resources to help you navigate the process of creating and submitting a
+documentation patch for Ruby.

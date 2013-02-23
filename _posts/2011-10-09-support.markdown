@@ -7,14 +7,34 @@ tags:
 
 ### Mailing List
 
-If you have any questions about documentation for which you can't find the answer on this website, then please post them to the **documenting.ruby@librelist.org** mailing list. To sign up, send a first message to documenting.ruby@librelist.org with any subject. This step will trigger an email asking you to confirm your subscription request. To finalize your subscription simply reply to the confirmation email you just received.
+If you have any questions about documentation for which you can't find the
+answer on this website, then please post them to the
+**documenting.ruby@librelist.org** mailing list.
+
+To sign up, send a first message to documenting.ruby@librelist.org with any
+subject. This step will trigger an email asking you to confirm your
+subscription request. To finalize your subscription simply reply to the
+confirmation email you just received.
 
 ### IRC Channel
 
-We use the #ruby-core IRC channel on freenode for discussions around MRI documentation. The channel is not very active, but feel free to ping @drbrain (Eric Hodel), @seacreature (Gregory Brown) or @steveklabnik (Steve Klabnik) with any questions.
+We use the #ruby-core IRC channel on freenode for discussions around MRI
+documentation.
 
+The channel is not very active, but feel free to ping any of the following
+individuals with any questions:
+
+* <a href="http://twitter.com/drbrain">drbrain (Eric Hodel)</a>
+* <a href="http://twitter.com/_zzak">zzak (Zachary Scott)</a>
+* <a href="http://twitter.com/practicingruby">@practicingruby (Gregory Brown)</a>
+* or <a href="http://twitter.com/steveklabnik">steveklabnik (Steve Klabnik)</a>
 
 ### Our Ruby Fork
 
-The first step for contributing is to create your own fork of documenting-ruby's [fork of ruby on github](https://github.com/documenting-ruby/ruby). The purpose of this setup is to allow for an internal review process of new documentation contributions. For more details on the exact contribution process, read [How to Document Ruby](/step-by-step-guide.html)
+The first step for contributing is to create your own fork of
+documenting-ruby's [fork of ruby on
+github](https://github.com/documenting-ruby/ruby). The purpose of this setup is
+to allow for an internal review process of new documentation contributions. For
+more details on the exact contribution process, read [How to Document
+Ruby](/step-by-step-guide.html)
 

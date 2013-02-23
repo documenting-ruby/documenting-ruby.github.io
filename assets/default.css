@@ -147,6 +147,11 @@ ul.lineal li{
   padding:0;
 }
 
+.top {
+  float:right;
+  font-size:80%;
+}
+
 .extra{
   float:right;
 }
