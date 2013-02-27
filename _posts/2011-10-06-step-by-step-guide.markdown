@@ -43,6 +43,10 @@ Search for "is not documented" in "documentation_coverage.txt". Find something
 that interests you, and document it. You can see how much of Ruby is documented
 by looking at the stats at the bottom of the file.
 
+We have generated a few of these reports for various areas of the MRI source,
+see our <a href="/undocumented-areas.html#CoverageReport">undocumented coverage
+report</a>.
+
 <a name="Documenting"></a>
 <a class="top" href="#">top</a>
 ## Documenting
