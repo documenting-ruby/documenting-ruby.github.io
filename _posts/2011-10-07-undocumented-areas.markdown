@@ -9,8 +9,8 @@ Many modules in Ruby lack a basic top-level description of what they do. In many
 
 ### Example of well documented classes
 
-  - [OpenSSL](https://github.com/documenting-ruby/ruby/blob/trunk/ext/openssl/ossl.c#L418-790)
-  - [BasicObject](https://github.com/documenting-ruby/ruby/blob/trunk/object.c#L2624-2675)
+  - [OpenSSL](https://github.com/documenting-ruby/ruby/blob/325a50fc572516a171d640765d6ddf9b20be14dc/ext/openssl/ossl.c#L555-L1035)
+  - [BasicObject](https://github.com/documenting-ruby/ruby/blob/6964df9a21633be9c77eba96e56f8a62db8901d1/object.c#L3185-L3236)
 
 ### Classes/Modules which lack documentation
 
