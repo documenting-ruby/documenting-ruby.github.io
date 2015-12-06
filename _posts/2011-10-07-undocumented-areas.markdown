@@ -23,7 +23,6 @@ Many modules in Ruby lack a basic top-level description of what they do. In many
 ### Classes/Modules with poor documentation
 
   - ARGF
-  - CMath need clarifications (Complex is now in core, what does it do now?)
   - Digest: no examples (Digest::MD5 is not even in the class list)
   - OptionParser
   - Racc
