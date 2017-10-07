@@ -8,24 +8,24 @@ tags:
 <a name="SetUp"></a>
 ## Getting Set Up
 
-Fork documenting-ruby's fork of Ruby [on github](https://github.com/documenting-ruby/ruby).
+Fork the [ruby repository on GitHub](https://github.com/ruby/ruby).
 
 Clone your new repo:
 {% highlight bash %}
-git clone git@github.com:YOUR_NAME/ruby.git
+git clone git@github.com:ruby/ruby.git
 {% endhighlight %}
 
 Add the upstream remote:
 {% highlight bash %}
-git remote add upstream https://github.com/documenting-ruby/ruby.git
+git remote add upstream https://github.com/ruby/ruby.git
 git fetch upstream
 git merge upstream/trunk
 {% endhighlight %}
 
 Choose some code to document. You can use our [suggestions for code to
 document](undocumented-areas.html) or follow these instructions to generate
-your own list of undocumented code. Check documenting-ruby's [fork of Ruby
-issues](https://github.com/documenting-ruby/ruby/issues) for a list of
+your own list of undocumented code. Check ruby's [list of Doc-labeled Pull
+Requests](https://github.com/ruby/ruby/labels/Doc) for a list of
 documentation other people are working on.
 
 Get a list of undocumented code (you must have rdoc >= 3.3 for this to work):
@@ -43,22 +43,14 @@ Search for "is not documented" in "documentation_coverage.txt". Find something
 that interests you, and document it. You can see how much of Ruby is documented
 by looking at the stats at the bottom of the file.
 
-We have generated a few of these reports for various areas of the MRI source,
-see our <a href="/undocumented-areas.html#CoverageReport">undocumented coverage
-report</a>.
-
 <a name="Documenting"></a>
 <a class="top" href="#">top</a>
 ## Documenting
 
-To help others know what you're documenting, [open an
-issue](https://github.com/documenting-ruby/ruby/issues/new) on
-documenting-ruby's fork of Ruby.
-
 Write your new documentation.
 
 - For writing top-level docs in C files, look for `Document-class` or
-  `rb_define_class` (may be towards the bottom of the file.) For writing method
+  `rb_define_class` (may be towards the bottom of the file). For writing method
   docs, look for `rb_define_method`, and then look for the function it uses.
 - To emit `<code>foo.bar</code>`, you can use `+foo.bar+`. It doesn't always
   work on operators, so use `<code>==</code>`, not `+==+`.
@@ -84,7 +76,7 @@ Preview your new documentation in `tmpdoc/index.html`.
 Once it looks good delete your extra files:
 {% highlight bash %}
  rm -rf tmpdoc documentation_coverage.txt
-{% endhighlight %} 
+{% endhighlight %}
 
 Add your documentation change:
 {% highlight bash %}
@@ -96,9 +88,8 @@ Commit your documentation change:
 git commit -m "adding documentation for WHAT_YOU_CHANGED"
 {% endhighlight %}
 
-Submit a pull request to documenting-ruby's fork if you want a quality review,
-or need help creating a patch to submit to Ruby Core. Or if you have something
-that's ready to go, you can submit the patch yourself (see instructions below).
+When you have something that's ready to go, you can submit a patch (see
+instructions below).
 
 <a name="CreatePatch"></a>
 <a class="top" href="#">top</a>
@@ -110,17 +101,17 @@ Create a patch to submit to ruby-core:
 {% endhighlight %}  
 
 If you're having trouble generating a patch, but you have committed your
-changes to github, simply append `.patch` to the end of your commit. For
+changes to GitHub, simply append `.patch` to the end of your commit. For
 example, if you take the [following
 commit](https://github.com/ruby/ruby/commit/071a678a156dde974d8e470b659c89cb02b07b3b)
 and [add `.patch` to the
 url](https://github.com/ruby/ruby/commit/071a678a156dde974d8e470b659c89cb02b07b3b.patch)
 you can save this page as a patch and upload it to the bug tracker.
 
-[Open a new ticket](http://bugs.ruby-lang.org/projects/ruby-trunk/issues/new)
+[Open a new ticket](https://bugs.ruby-lang.org/projects/ruby-trunk/issues/new)
 on RedMine and submit your patch (will be called something like "0001-\*.patch"
 in the root directory of the project). You'll need to [sign
-up](http://bugs.ruby-lang.org/account/register) if you haven't before.
+up](https://bugs.ruby-lang.org/account/register) if you haven't before.
 Assigning drbrain or zzak to the ticket should help make sure your patch is
 pulled in a timely manner.
 
