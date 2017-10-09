@@ -8,23 +8,24 @@ tags:
 <a name="SetUp"></a>
 ## Getting Set Up
 
+The Git steps below are carefully detailed in the GitHub Help center how-to _[Fork A Repo](https://help.github.com/articles/fork-a-repo/)_.
+
 Fork the [ruby repository on GitHub](https://github.com/ruby/ruby).
 
-Clone your new repo:
+Clone your newly-forked repository (where `YOUR_USERNAME` replaced with your GitHub username):
 {% highlight bash %}
-git clone git@github.com:ruby/ruby.git
+git clone git@github.com:YOUR_USERNAME/ruby.git
 {% endhighlight %}
 
-Add the upstream remote:
+Add the `upstream` remote:
 {% highlight bash %}
 git remote add upstream https://github.com/ruby/ruby.git
 git fetch upstream
 git merge upstream/trunk
 {% endhighlight %}
 
-Choose some code to document. You can use our [suggestions for code to
-document](undocumented-areas.html) or follow these instructions to generate
-your own list of undocumented code. Check ruby's [list of Doc-labeled Pull
+Choose some code to document. Follow these instructions to generate
+a list of undocumented code. Check ruby's [list of Doc-labeled Pull
 Requests](https://github.com/ruby/ruby/labels/Doc) for a list of
 documentation other people are working on.
 
